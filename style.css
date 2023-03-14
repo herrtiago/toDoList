@@ -1,0 +1,124 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: black;
+  font-size: large;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("https://images.pexels.com/photos/5088021/pexels-photo-5088021.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+
+}
+
+
+i:hover {
+  color:red;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  height: 90vh;
+  width: 80%;
+  background-color: rgba(231, 236, 232, 0.5);
+}
+
+main .imagen {
+  height: 20%;
+  width: 100%;
+  background-color: hsla(0, 54%, 40%,0.5);
+  overflow: hidden;
+  background-image: url('https://images.pexels.com/photos/743986/pexels-photo-743986.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'); 
+  background-size: cover; 
+  background-position: center bottom 25%; 
+}
+
+
+
+main .titulo {
+  height: 4%;
+  width: 80%;
+  padding: 5px;
+  text-align: center;
+  font-weight: 900;
+  font-size: 50px;
+  font-style: oblique;
+}
+
+
+.inputs{
+  margin-top: 5%;
+  width: 35%;
+  height: 10%;
+  background-color: rgba(226, 216, 216, 0.8);
+  color: brown;
+  font-weight: 900;
+  font-style: oblique;
+  display: flex;
+  gap:5%;
+  align-items: center;
+  padding: 5px;
+  border-radius: 30px;
+}
+
+.tarea__input{
+  height: 60%;
+  width: 80%;
+  padding:1%;
+  border-radius: 30px;
+}
+
+.tarea_boton{
+  width: 20%;
+}
+
+button{
+  font-size: xx-large;
+  width: 100%;
+  height:80%;
+  color:brown;
+  border: 2px brown solid;
+  border-radius: 30px;
+
+}
+
+
+button:hover{
+  color:rgb(245, 245, 245);
+  background-color: rgb(231, 4, 4);
+}
+
+.lista{
+  height: 50%;
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  overflow: hidden;
+}
+.lista .tarea {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 10%;
+  width: 85%;
+  border-bottom: 1px solid rgb(152, 148, 148);
+}
+
+
+.seguimiento{
+  font-weight: 900;
+    color:rgb(27, 119, 98);
+}
